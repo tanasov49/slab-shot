@@ -1,0 +1,9 @@
+.testimonials__title {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3;
+    color: #fff;
+    margin: 0;
+    padding: 110px 0 0 95px;
+}

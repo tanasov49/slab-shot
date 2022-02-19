@@ -1,0 +1,8 @@
+.header__image {
+    width: 885px;
+    height: 468px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

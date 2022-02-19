@@ -1,0 +1,6 @@
+.feature-skill__image {
+    max-width: 213px;
+    height: 184px;
+    grid-column: 1;
+    grid-row: 2;
+}

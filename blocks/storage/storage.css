@@ -1,0 +1,7 @@
+.storage {
+    max-width: 1120px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    margin: 100px 0 0 120px;
+}

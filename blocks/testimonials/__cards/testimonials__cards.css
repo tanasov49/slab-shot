@@ -1,0 +1,6 @@
+.testimonials__cards {
+    display: flex;
+    margin: 90px 0 0 100px;
+    position: relative;
+    padding: 0;
+}

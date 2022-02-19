@@ -1,0 +1,7 @@
+.header__menu_link {
+    list-style-type: none;
+    margin: 0 40px 0 0;
+}
+.header__menu_link:last-child {
+    margin: 0;
+}

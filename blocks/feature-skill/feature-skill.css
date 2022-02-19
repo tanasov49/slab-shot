@@ -1,0 +1,9 @@
+.feature-skill {
+    list-style-type: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: minmax(min-content, 213px) minmax(min-content, 220px);
+    grid-template-rows: 50px 184px 26px;
+    position: relative;
+    grid-gap: 20px 45px;
+}

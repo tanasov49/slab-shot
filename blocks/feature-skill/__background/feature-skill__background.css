@@ -1,0 +1,17 @@
+.feature-skill__background {
+    width: 412px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 200px 60px 60px 60px;
+    right: 0;
+}
+.feature-skill:nth-child(2n+1) .feature-skill__background {
+    background: #68C9BA;
+    opacity: 0.1;
+}
+.feature-skill:nth-child(2n) .feature-skill__background {
+    background: #9C69E2;
+    opacity: 0.1;
+}
+
