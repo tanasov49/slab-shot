@@ -3,4 +3,6 @@
     border-radius: 50px;  
     max-width: 1118px;
     min-height: 709px;
+    margin: 150px auto 0;
+    position: relative;
 }

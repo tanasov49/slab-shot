@@ -1,0 +1,7 @@
+.footer {
+    margin: 280px 0 70px 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    justify-content: space-evenly;
+}

@@ -3,5 +3,5 @@
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     display: flex;
-    margin: 100px 0 0 120px;
+    margin: 100px auto 0;
 }

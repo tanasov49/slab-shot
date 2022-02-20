@@ -1,0 +1,18 @@
+.footer-social-media__link_twitter {
+    position: relative;
+    display: block;
+    min-width: 9.5px;
+    min-height: 20.4px;
+    z-index: 2;
+    justify-self: center;
+}
+.footer-social-media__link_twitter::before {
+    content: "";
+    background-image: url(../../../images/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}

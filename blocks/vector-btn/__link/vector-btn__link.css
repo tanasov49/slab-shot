@@ -1,0 +1,22 @@
+.vector-btn__link {
+    text-decoration: none;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.vector-btn__link:hover {
+    opacity: 1;
+}
+.vector-btn__link:active {
+    opacity: 1;
+}
+.vector-btn__link:nth-child(1)::before {
+    content: "\2190";
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px 0 0;
+}
+.vector-btn__link:nth-child(2)::before {
+    content: "\2192";
+    font-size: 20px;
+    color: #fff;
+}

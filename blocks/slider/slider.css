@@ -1,0 +1,9 @@
+.slider {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+    margin: 0;
+    padding: 0;
+}

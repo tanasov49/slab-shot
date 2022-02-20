@@ -1,0 +1,21 @@
+.link-learn-more {
+    text-decoration: none;
+    font-family: "Avenir";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #212353;
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+.link-learn-more:hover {
+    background-color: #9C69E2;
+}

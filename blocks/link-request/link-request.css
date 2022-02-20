@@ -1,0 +1,23 @@
+.link-request {
+    display: flex;
+    width: 210px;
+    height: 60px;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Avenir";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #212353;
+    align-items: center;
+    justify-content: center;
+}
+.link-request::after {
+    content: "\2192";
+    padding: 0 0 0 10px;
+    color: #9C69E2;
+}
+.link-request:hover {
+    background-color: #F063B8;
+}

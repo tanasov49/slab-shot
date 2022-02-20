@@ -1,0 +1,10 @@
+.try-demo__subtitle {
+    font-family: "Avenir";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4B5D68;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+}

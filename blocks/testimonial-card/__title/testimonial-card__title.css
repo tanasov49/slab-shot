@@ -1,0 +1,13 @@
+.testimonial-card__title {
+    font-family: "Avenir";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.005em;
+    color: #212353;
+    margin: 0;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+}

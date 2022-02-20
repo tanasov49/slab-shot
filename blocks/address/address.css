@@ -1,0 +1,5 @@
+.address {
+    max-width: 265px;
+    display: flex;
+    flex-wrap: wrap;
+}

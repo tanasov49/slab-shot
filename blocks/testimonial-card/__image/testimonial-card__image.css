@@ -1,0 +1,11 @@
+.testimonial-card__image {
+    width: 90px;
+    height: 90px;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    position: relative;
+    top: 30px;
+    left: 0;
+    margin: 0 0 0 20px;
+}

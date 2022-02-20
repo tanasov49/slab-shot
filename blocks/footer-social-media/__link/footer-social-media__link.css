@@ -1,0 +1,14 @@
+.footer-social-media__link {
+    background: #212353;
+    opacity: 0.1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: ease 1s;
+    grid-row: 2;
+    grid-column: 1;
+    
+}
+.footer-social-media__link:hover {
+    opacity: 1;
+}

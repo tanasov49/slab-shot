@@ -1,0 +1,9 @@
+.safe-data__title {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    color: #212353;
+    max-width: 645px;
+    margin: 130px 0 0 0;
+}

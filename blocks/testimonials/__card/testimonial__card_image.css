@@ -1,9 +1,0 @@
-.testimonial__card_image {
-    width: 90px;
-    height: 90px;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 15;
-    justify-self: center;
-}

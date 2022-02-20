@@ -11,21 +11,21 @@
 <body>
     <div class="pages">
         <header class="header">
-            <nav class="nav">
-                <img src="./images/Logo.png" alt="Logo" class="logo logo__place_header">
-                <ul class="header__menu">
-                    <li class="header__menu_link"><a href="#" class="header__menu_link_item">About</a></li>
-                    <li class="header__menu_link"><a href="#" class="header__menu_link_item">Help</a></li>
-                    <li class="header__menu_link"><a href="#" class="header__menu_link_item">Features</a></li>
-                    <li class="header__menu_link"><a href="#" class="header__menu_link_item">Singup</a></li>
-                </ul>
-                <a href="#" class="link__request">Request Demo</a>
+            <img src="./images/Logo.png" alt="Logo" class="logo logo_place_header">
+            <nav class="header__nav">
+                <a href="#" class="header__nav-link">About</a>
+                <a href="#" class="header__nav-link">Help</a>
+                <a href="#" class="header__nav-link">Features</a>
+                <a href="#" class="header__nav-link">Singup</a>
             </nav>
-            <h1 class="header__title">Save your data storage here.</h1>
-            <p class="header__text">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
-            <a href="#" class="link__learn-more link__learn-more_place_header">Learn more</a>
-            <img src="./images/header_image.png" alt="Header image" class="header__image">
+            <a href="#" class="link-request">Request Demo</a>
         </header>
+        <section class="safe-data">
+            <h1 class="safe-data__title">Save your data storage here.</h1>
+            <p class="safe-data__subtitle">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
+            <a href="#" class="link-learn-more link-learn-more_place-header">Learn more</a>
+            <img src="./images/header_image.png" alt="Header image" class="safe-data__image">
+        </section>
         <main class="main">
             <section class="storage">
                 <img src="./images/storage__image.png" alt="Storage" class="storage__image">
@@ -71,22 +71,81 @@
             <section class="testimonials">
                 <h2 class="testimonials__title">Testimonials</h2>
                 <ul class="testimonials__cards">
-                    <li class="testimonial__card">
-                        <img src="./images/photo_testimonial.png" alt="testimonial" class="testimonial__card_image">
-                        <h4 class="testimonial__card_title">John Fang</h4>
-                        <p class="testimonial__card_subtitle">wordfaang.com</p>
-                        <p class="testimonial__card_text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+                    <li class="testimonial-card">
+                        <img src="./images/photo_testimonial.png" alt="testimonial" class="testimonial-card__image">
+                        <h4 class="testimonial-card__title">John Fang</h4>
+                        <p class="testimonial-card__subtitle">wordfaang.com</p>
+                        <p class="testimonial-card__text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
                     </li>
-                    <li class="testimonial__card">
-                        <img src="./images/photo_testimonial.png" alt="testimonial" class="testimonial__card_image">
-                        <h4 class="testimonial__card_title">John Fang</h4>
-                        <p class="testimonial__card_subtitle">wordfaang.com</p>
-                        <p class="testimonial__card_text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+                    <li class="testimonial-card">
+                        <img src="./images/photo_testimonial2.png" alt="testimonial" class="testimonial-card__image">
+                        <h4 class="testimonial-card__title">Jeny Doe</h4>
+                        <p class="testimonial-card__subtitle">UX Engineer</p>
+                        <p class="testimonial-card__text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor</p>
+                    </li>
+                    <li class="testimonial-card">
+                        <img src="./images/photo_testimonial.png" alt="testimonial" class="testimonial-card__image">
+                        <h4 class="testimonial-card__title">John Fang</h4>
+                        <p class="testimonial-card__subtitle">wordfaang.com</p>
+                        <p class="testimonial-card__text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+                    </li>
+                    <li class="testimonial-card">
+                        <img src="./images/photo_testimonial2.png" alt="testimonial" class="testimonial-card__image">
+                        <h4 class="testimonial-card__title">Jeny Doe</h4>
+                        <p class="testimonial-card__subtitle">UX Engineer</p>
+                        <p class="testimonial-card__text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor</p>
                     </li>
                 </ul>
+                <ul class="slider">
+                    <li class="slider__radio" onclick="currentSlide(1)"></li>
+                    <li class="slider__radio" onclick="currentSlide(2)"></li>
+                    <li class="slider__radio" onclick="currentSlide(3)"></li>
+                    <li class="slider__radio" onclick="currentSlide(4)"></li>
+                </ul>
+                <div class="vector-btn">
+                    <a class="vector-btn__link" onclick="minusSlide()"></a>
+                    <a class="vector-btn__link" onclick="plusSlide()"></a>
+                </div>
+            </section>
+            <section class="try-demo">
+                    <h2 class="try-demo__title">Try for free!</h2>
+                    <p class="try-demo__subtitle">Get limited 1 week free try our features!</p>
+                    <a href="#" class="link-request link-request_place-try-demo">Request Demo</a>
+                    <a href="#" class="link-learn-more link-learn-more_place-try-demo">Learn more</a>
             </section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="address">
+                <img src="./images/Logo.png" alt="Logo" class="logo">
+                <h4 class="address__title">DataWarehouse</h4>
+                <p class="address__text">Warehouse Society, 234<br> Bahagia Ave Street PRBW 29281</p>
+                <p class="address__email">info@warehouse.project</p>
+                <p class="address__phone">1-232-3434 (Main)</p>
+            </div>
+            <nav class="footer__nav">
+                <h4 class="footer__nav-title">About</h4>
+                <a href="#" class="footer__nav-link">Profile</a>
+                <a href="#" class="footer__nav-link">Features</a>
+                <a href="#" class="footer__nav-link">Careers</a>
+                <a href="#" class="footer__nav-link">DW News</a>
+            </nav>
+            <nav class="footer__nav">
+                <h4 class="footer__nav-title">Help</h4>
+                <a href="#" class="footer__nav-link">Support</a>
+                <a href="#" class="footer__nav-link">Singup</a>
+                <a href="#" class="footer__nav-link">Guide</a>
+                <a href="#" class="footer__nav-link">Reports</a>
+                <a href="#" class="footer__nav-link">Q&A</a>
+            </nav>
+            <div class="footer-social-media">
+                <h4 class="footer-social-media__title">Social Media</h4>
+                <a href="" class="footer-social-media__link footer-social-media__link_facebook"></a>
+                <a href="" class="footer-social-media__link footer-social-media__link_twitter"></a>
+                <a href="" class="footer-social-media__link footer-social-media__link_instagramm"></a>
+            </div>
+            <p class="footer__copyryght">©Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.</p>
+        </footer>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

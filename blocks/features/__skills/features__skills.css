@@ -1,5 +1,6 @@
 .features__skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 532px));
+    grid-template-columns: repeat(2, minmax(min-content, 532px));
     grid-gap: 50px;
+    margin: 100px auto 0;
 }

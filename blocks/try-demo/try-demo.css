@@ -1,0 +1,6 @@
+.try-demo {
+    margin: 277px 0 0 0;
+    display: grid;
+    grid-template-columns: minmax(min-content, 710px) minmax(min-content, 210px)minmax(min-content, 210px);
+    justify-content: center;
+}
