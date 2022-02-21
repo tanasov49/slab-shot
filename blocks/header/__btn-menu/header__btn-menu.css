@@ -9,6 +9,7 @@
         position: relative;
         z-index:2;
         overflow: hidden;
+        right: 20px;
     }
     .header__btn-menu.active .header__btn-menu-item-top {
         display: none;
