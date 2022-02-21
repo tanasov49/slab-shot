@@ -8,3 +8,8 @@
     grid-row: 2;
     margin: 0;
 }
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .try-demo__subtitle {
+        margin: 20px 0 0 0;
+    }
+}

@@ -4,3 +4,9 @@
     position: relative;
     padding: 0;
 }
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .testimonials__cards {
+        margin: 20px auto 0;
+        justify-content: center;
+    }
+}

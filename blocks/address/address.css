@@ -3,3 +3,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 767px) and (min-width: 320px)  {
+    .address {
+        margin: 0 0 25px 0;
+    }
+}

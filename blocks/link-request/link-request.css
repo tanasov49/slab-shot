@@ -21,3 +21,8 @@
 .link-request:hover {
     background-color: #F063B8;
 }
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .link-request_place-header {
+        display: none;
+    }
+}

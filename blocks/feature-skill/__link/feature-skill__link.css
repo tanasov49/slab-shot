@@ -19,3 +19,10 @@
 .feature-skill__link:hover::after {
     color: #2b2fa5;
 }
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .feature-skill__link {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 20px 0 0 0;
+    }
+}

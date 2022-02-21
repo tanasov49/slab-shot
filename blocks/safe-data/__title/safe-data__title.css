@@ -7,3 +7,10 @@
     max-width: 645px;
     margin: 130px 0 0 0;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .safe-data__title {
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+    } 
+}

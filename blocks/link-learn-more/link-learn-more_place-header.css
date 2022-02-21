@@ -1,3 +1,8 @@
 .link-learn-more_place-header {
     margin: 50px 0 0 0;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .link-learn-more_place-header {
+        display: none;
+    } 
+}

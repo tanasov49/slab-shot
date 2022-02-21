@@ -37,3 +37,10 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "grid";
     dots[slideIndex - 1].className += " slider__radio_active";
 }
+let menuBtn = document.querySelector('.header__btn-menu');
+let menu = document.querySelector('.header__nav');
+
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})

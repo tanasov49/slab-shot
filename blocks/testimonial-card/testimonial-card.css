@@ -1,12 +1,12 @@
 .testimonial-card {
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, maxcontent));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: minmax(min-content, 40px) minmax(min-content, 30px) minmax(min-content, 150px);
     grid-gap: 0 30px;
     margin: 0;
     background: #fff;
-    height: 330px;
+    min-height: 330px;
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
     border: 1px solid #9C69E2;
@@ -17,6 +17,15 @@
 }
 .testimonial-card:nth-child(n + 2) {
     display: none;
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .testimonial-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, max-content);
+        padding: 0;
+        text-align: center;
+        padding: 30px;
+    }
 }
 @keyframes fade {
     from {

@@ -9,3 +9,8 @@
     left: 0;
     margin: 0 0 0 20px;
 }
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .testimonial-card__image {
+        top: 0;
+    }  
+}
