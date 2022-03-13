@@ -3,7 +3,7 @@
     font-weight: 700;
     src: url(./Avenir/AvenirLTStd-Black.woff2) format("woff2"),  url(./Avenir/AvenirLTStd-Black.woff) format("woff"), url(./Avenir/AvenirLTStd-Black.ttf) format("ttf"), url(./Avenir/AvenirLTStd-Black.eot) format("eot");
 }
-@font-face {
+@font-face { 
     font-family: "Avenir";
     font-weight: 400;
     src: url(./Avenir/AvenirLTStd-Roman.woff2) format("woff2"), url(./Avenir/AvenirLTStd-Roman.woff2) format("woff"), url(./Avenir/AvenirLTStd-Roman.ttf) format("ttf"), url(./Avenir/AvenirLTStd-Roman.eot) format("eot");
